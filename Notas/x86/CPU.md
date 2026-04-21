@@ -1,0 +1,3 @@
+- ALU: Operaciones Matematicas
+- Registros: Los registros en CPU es para acelerar procesos al tener una memoria que guarda informacion dentro para datos provisionales
+- Unidad de Control: Deocodifica las instrucciones en operaciones (Ej: LOAD, ADD)

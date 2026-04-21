@@ -1,0 +1,14 @@
+g++ -std=c++11 -mavx -o programa_cpp main_cpp.cpp funciones.cpp
+g++ -std=c++11  -mavx -o programa_avx main_avx.cpp funciones.cpp
+
+
+nasm -f elf64 CalcZ_Aavx.asm -o CalcZ_Aavx.o
+g++ -c -mavx Ejemplo_completo.cpp -o Ejemplo_completo.o
+
+ g++ -o programa Ejemplo_completo.o CalcZ_Aavx.o
+
+
+
+
+
+
