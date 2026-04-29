@@ -1,0 +1,1 @@
+g++ -msse2 -o suma Ch02_01.cpp Ch02_01_fcpp.cpp
