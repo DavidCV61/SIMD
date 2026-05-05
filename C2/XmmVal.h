@@ -59,4 +59,15 @@ public:
 
     return s;
   }
+
+  string ToStringX16() {
+
+    string s = "";
+    for (int8_t i = 0; i < 8; i++) {
+
+      s += to_string(m_U16[i]) + " | ";
+    }
+
+    return s;
+  }
 };
